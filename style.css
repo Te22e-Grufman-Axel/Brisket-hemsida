@@ -1,51 +1,45 @@
 body
 {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    grid-template-rows: 25% 50% 25%;
     background-image: image-set("./img/Brisket 3.webp");
     background-repeat:no-repeat;
     background-size: cover;
+    margin: 0px;
 }
 
+#top
+{
+    display: flex;
+    flex-direction: column;
+}
 #Topcenter
 {
 background-color: blue;
-border: 0px;
-height: 25%;
-width: 50%;
-flex-direction: row;
-margin: 0px;
 text-align: center;
-
+width: 50%;
+height: 15%;
 }
 #Topleft
 {
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-height: 25%;
 width: 25%;
+height: 15%;
+
 }
 #Topright
 {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 25%;
-    width: 25%;
+width: 25%;
+height: 15%;
 }
 #Indigrenser
 {
-
+background-color: white;
 }
 #Receptkrydda
 {
-
+background-color: white;
 }
 #Recept
 {
-
+background-color: white;
 }
 
 
