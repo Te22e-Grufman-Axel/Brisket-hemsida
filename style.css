@@ -13,8 +13,7 @@ img{
 {
     display: flex;
     flex-direction: row;
-    height: 15%;
-    max-height: 15%;
+    height: 25vh;
 }
 #Topleft
 {
@@ -33,16 +32,22 @@ width: 25%;
 #Ingredienser
 {
 background-color: white;
+margin: 100px;
+width: 35vh;
+line-height: 0,4;
 }
 #Receptkrydda
 {
-background-color: white;
+    background-color: white;
+    margin: 100px;
+    width: 35vh;
+    text-size-adjust: 0,5;
 }
 #Recept-steg-for-steg
 {
 background-color: white;
+margin: 50px;
+width: 35vh;
 }
-
-
 
 
