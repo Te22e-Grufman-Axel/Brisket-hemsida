@@ -27,7 +27,7 @@ width: 25%;
 }
 #Topcenter
 {
-background-color: blue;
+background-color: white;
 text-align: center;
 width: 50%;
 line-height: 0,10;
@@ -65,3 +65,4 @@ margin-left: 400px;
 h1{
     margin: 5px;
 }
+
